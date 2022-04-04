@@ -1,0 +1,13 @@
+version: '3'
+services:
+  pwn_n132:
+    build:
+      context: .
+    working_dir: /home/pwn
+    container_name: pwn0
+    ulimits:
+      nproc: 65535
+      core: 0
+    ports:
+      - "1024:6999"
+    entrypoint: /etc/init.sh
