@@ -1,6 +1,6 @@
 sudo passwd
 sudo apt update
-sudo apt install vim gdb wget git curl nmap zsh python3 pip -y
+sudo apt install vim gdb wget git curl zsh python3 libssl-dev -y
 # install pip & ipython 
 sudo apt-get install ipython3 -y
 sudo apt-get install gcc-multilib -y
