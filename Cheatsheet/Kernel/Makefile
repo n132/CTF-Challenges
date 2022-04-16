@@ -1,0 +1,2 @@
+all:
+	./boot.sh
