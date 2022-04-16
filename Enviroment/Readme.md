@@ -37,7 +37,7 @@ Or you can build your own image (replace the 22.04 with the ubuntu version of yo
 ```
 docker pull library/ubuntu:22.04
 docker run --privileged -it library/ubuntu:22.04 /bin/bash 
-# install tools, there is a expamle in ./env/Docker/Ubuntu22.04.sh
+# install tools, there is a expamle in ./Enviroment/Docker/Ubuntu22.04.sh
 docker commit u22 n132/pwn:22.04
 docker push n132/pwn:22.04
 ```
@@ -45,5 +45,5 @@ docker push n132/pwn:22.04
 
 
 [1]: https://github.com/ray-cp/pwn_debug
-[2]: ./env/VM/
-[2]: ./env/Docker/Ubuntu22.04.sh
+[2]: ./Enviroment/VM/
+[2]: ./Enviroment/Docker/Ubuntu22.04.sh
