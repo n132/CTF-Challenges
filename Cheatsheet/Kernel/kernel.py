@@ -10,10 +10,12 @@ make_address    = "https://raw.githubusercontent.com/n132/CTF-Challenges/main/Ch
 def download_templates():
     queue = [exp_address,boot_address,make_address]
     for item in queue:
-        Popen(["wget",item],stdout=PIPE, stderr=PIPE)
+        p= Popen(["wget",item],stdout=PIPE, stderr=PIPE)
+        stdout, stderr = p.communicate()
     print("[*] Got the Templates")
 def permission():
-    Popen(["chmod","+x","boot.sh"],stdout=PIPE, stderr=PIPE)
+    p= Popen(["chmod","+x","boot.sh"],stdout=PIPE, stderr=PIPE)
+    stdout, stderr = p.communicate()
 if __name__ == "__main__":
     download_templates()
     permission()
