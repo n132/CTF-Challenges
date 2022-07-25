@@ -2,7 +2,7 @@
 int n132()
 {
     char buf[0x100];
-    buf[read(0,buf,0x108)]=0;
+    buf[read(0,buf,0x100)]=0;
     puts(buf);
 }
 int main()
