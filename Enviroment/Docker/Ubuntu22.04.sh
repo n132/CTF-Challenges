@@ -1,9 +1,6 @@
 # docker env
 apt update
-apt install vim gdb wget git curl nmap zsh python3 pip -y
-# install pip & ipython 
-apt-get install ipython3 -y
-apt-get install gcc-multilib -y
+apt install vim gdb wget git curl nmap zsh python3 pip ipython3 gcc-multilib -y
 # install pwntools
 pip3 install pwntools
 # install on-my-zsh   
