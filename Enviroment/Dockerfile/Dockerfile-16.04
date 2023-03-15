@@ -1,0 +1,12 @@
+FROM ubuntu:16.04
+RUN apt-get -y update --fix-missing
+RUN apt-get -y install python python-pip git \
+    libssl-dev libffi-dev build-essential ipython vim gdb \
+    wget git curl nmap zsh zsh git gcc-multilib -y
+RUN curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py
+RUN python2 get-pip.py
+RUN pip2 --no-input install pwntools pathlib2
+RUN echo Y | sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+RUN cd && git clone https://github.com/longld/peda.git ~/peda && git clone https://github.com/scwuaptx/Pwngdb.git
+RUN cp ~/Pwngdb/.gdbinit ~/
+RUN apt -y install tmux
