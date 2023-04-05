@@ -36,7 +36,7 @@ docker pull n132/pwn:22.04
 Or you can build your own image (replace the 22.04 with the ubuntu version of your target)
 ```
 docker pull library/ubuntu:22.04
-docker run --privileged -it library/ubuntu:22.04 /bin/bash 
+docker run -it library/ubuntu:22.04 /bin/bash 
 # install tools, there is a expamle in ./Docker/Ubuntu22.04.sh
 docker commit u22 n132/pwn:22.04
 docker push n132/pwn:22.04
