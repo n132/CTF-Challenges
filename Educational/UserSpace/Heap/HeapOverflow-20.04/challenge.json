@@ -1,0 +1,13 @@
+{
+    "name": "overflow-20.04",
+    "description": "Heap Overflow on Ubuntu20.04\n\n`nc offsec-chalbroker.osiris.cyber.nyu.edu 12346`",
+    "points": 150,
+    "category": "Pwning",
+    "flag": "",
+    "files": [ "gen", "share.zip"],
+    "listen_port": 12346,
+    "internal_port": 9999,
+    "container_name": "overflow-20.04",
+    "needs_unique_files": false,
+    "enabled": true
+}

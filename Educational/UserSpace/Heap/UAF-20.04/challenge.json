@@ -1,0 +1,13 @@
+{
+  "name": "uaf-20.04",
+  "description": "UAF on Ubuntu20.04\n\n`nc offsec-chalbroker.osiris.cyber.nyu.edu 12347`",
+  "points": 150,
+  "category": "Pwning",
+  "flag": "",
+  "files": [ "gen", "share.zip"],
+  "listen_port": 12347,
+  "internal_port": 9999,
+  "container_name": "uaf-20.04",
+  "needs_unique_files": false,
+  "enabled": true
+}

@@ -1,0 +1,13 @@
+{
+  "name": "overflow-22.04",
+  "description": "Heap Overflow on Ubuntu22.04\n\n`nc offsec-chalbroker.osiris.cyber.nyu.edu 12348`",
+  "points": 150,
+  "category": "Pwning",
+  "flag": "",
+  "files": [ "gen", "share.zip"],
+  "listen_port": 12348,
+  "internal_port": 9999,
+  "container_name": "overflow-22.04",
+  "needs_unique_files": false,
+  "enabled": true
+}
