@@ -1,7 +1,0 @@
-# Chal
-
-HEAP Overflow
-
-
-# Solution
-
