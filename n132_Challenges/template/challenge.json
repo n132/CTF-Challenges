@@ -1,0 +1,16 @@
+{
+    "name": "Overflow-20.04",
+    "category": "pwn",
+    "author": "n132",
+    "description": "Heap Overflow on Ubuntu20.04",
+    "flag": "x",
+    "type": "dynamic",
+    "initial": 150,
+    "minimum": 150,
+    "decay": 275,
+    "files": [
+      "share.zip"
+    ],
+    "box": "pwn.chal.csaw.io",
+    "internal_port": 9999
+  }
