@@ -1,7 +1,7 @@
 # CTF-Challenges
 
 # Educational
-I'll attach some of my teaching material in [Educational][3].
+I'll attach some of my teaching materials in [Educational][3].
 
 # Challenges
 I'll attach my CTF challenges in [n132_challenges][2].
