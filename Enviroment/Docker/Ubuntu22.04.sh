@@ -1,6 +1,6 @@
 # docker env
 apt update
-apt install vim gdb wget git curl nmap zsh python3 pip ipython3 gcc-multilib tmux -y
+apt install vim gdb wget git curl nmap zsh python3 pip ipython3 gcc-multilib tmux -y --no-install-recommends
 # install pwntools
 pip3 install pwntools
 # install on-my-zsh   
