@@ -1,6 +1,8 @@
 # update
 apt update
 apt install vim gdb wget git curl zsh python-pip ipython python2.7 python-pip python-dev git libssl-dev libffi-dev build-essential -y
+wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
+python ./get-pip.py
 pip install --upgrade pwntools
 # install zsh   
 apt-get install zsh git gcc-multilib -y
