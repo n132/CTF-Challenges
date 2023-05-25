@@ -1,10 +1,6 @@
 # update
 apt update
-apt install vim gdb wget git curl nmap zsh python-pip -y
-# install ipython
-apt-get install ipython
-# install pwntools
-apt-get install python2.7 python-pip python-dev git libssl-dev libffi-dev build-essential
+apt install vim gdb wget git curl zsh python-pip ipython python2.7 python-pip python-dev git libssl-dev libffi-dev build-essential -y
 pip install --upgrade pwntools
 # install zsh   
 apt-get install zsh git gcc-multilib -y
