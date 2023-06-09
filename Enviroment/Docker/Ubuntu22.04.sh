@@ -2,7 +2,7 @@
 apt update
 apt install vim gdb wget git curl nmap zsh python3 pip ipython3 gcc-multilib tmux -y --no-install-recommends
 # install pwntools
-pip3 install pwntools
+pip3 install pwntools pathlib2
 # install on-my-zsh   
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 # install peda pwngdb
