@@ -9,7 +9,7 @@ I'll attach some of my teaching materials in [Educational][3].
 I'll attach my CTF challenges in [n132_challenges][2].
 
 # Enviroment
-This is a [note][1] to help people build up pwn enviroment.
+This is a [note][1] to help people build up pwn environment.
 
 
 [1]: ./Enviroment/Readme.md
