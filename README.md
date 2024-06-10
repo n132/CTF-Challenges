@@ -1,5 +1,7 @@
 # CTF-Challenges
 
+This repo includes some educational challenges as well as the basic guides for setting up the linux user space  pwn environment.
+
 # Educational
 I'll attach some of my teaching materials in [Educational][3].
 
