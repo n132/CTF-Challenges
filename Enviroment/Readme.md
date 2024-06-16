@@ -5,6 +5,7 @@ Remember to keep the same enviroment with the server end or you would waste tons
 
 # MY DEVICES
 - Windows Laptop
+- Linux Laptop
 - Intel Macbook Pro
 
 # Windows
@@ -14,6 +15,9 @@ If you don't have big disk, you can try to use [pwn_debug][1] to build all the e
 # Intel MAC
 
 On MAC, I use vmware and docker, too.
+
+# Linux
+It's enjoyable to use Linux to do my daliy work. 
 
 # How to set up a VM
 
@@ -25,12 +29,13 @@ The procedure to build the VMs, assuming we already have vmare or visual studio.
 3. Run the corresponding [scripts][2] to install pwn related tools
 
 # How to set up  docker env
-Chose one:
+Chose one to start pwning:
 ```
-docker pull n132/pwn:16.04
-docker pull n132/pwn:18.04
-docker pull n132/pwn:20.04
-docker pull n132/pwn:22.04
+docker run n132/pwn:16.04 zsh
+docker run n132/pwn:18.04 zsh
+docker run n132/pwn:20.04 zsh
+docker run n132/pwn:22.04 zsh
+docker run n132/pwn:24.04 zsh
 ```
 
 Or you can build your own image (replace the 22.04 with the ubuntu version of your target)
